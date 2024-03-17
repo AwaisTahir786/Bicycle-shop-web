@@ -21,6 +21,7 @@ async function getData(){
     
 }
 
+
 async function OurBikes() {
     const bikes = await getData();
     // console.log(bikes);
