@@ -11,8 +11,8 @@ import { useShoppingCart } from "use-shopping-cart";
 function Header() {
 
     // add payment method
-    const {cartCount , handleCartClick}=useShoppingCart();
-    console.log(cartCount);
+    const {cartCount , handleCartClick}= useShoppingCart();
+    // console.log(cartCount);
 
     return(
         <header className="bg-white py-8 sticky top-0 z-40 shadow-lg">

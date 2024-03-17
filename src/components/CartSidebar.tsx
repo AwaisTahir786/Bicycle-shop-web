@@ -38,7 +38,7 @@ function CartSidebar() {
               </div>
           ) : (
             // Error Scroll Area 1:45
-            <ScrollArea className="pr-4 mb-4 h-[70vh] xl:h-[74vh] ">
+            <ScrollArea className='pr-4 mb-4 h-[70vh] xl:h-[74vh] '>
               {cartDetails &&
                 Object.entries(cartDetails).map(([key, item]): any => {
                   return <CartItem key={key} item={item} />;
