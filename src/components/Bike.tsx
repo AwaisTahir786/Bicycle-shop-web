@@ -6,7 +6,7 @@ import Link from "next/link";
 import { CgEye, CgShoppingBag } from "react-icons/cg";
 
 function Bike({ bike }: any) {
-  console.log(bike);
+  // console.log(bike);
 
   const popularbikeCat = bike.categories.find(
     (bike: any) => bike.name === "popular"
